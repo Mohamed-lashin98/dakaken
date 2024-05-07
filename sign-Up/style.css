@@ -1,0 +1,198 @@
+body {
+  box-sizing: border-box;
+  font-family: "Noto Sans Arabic", Cairo;
+}
+
+.color_orange {
+  color: #F49B57 !important;
+}
+.color_white {
+  color: #F49B57 !important;
+}
+
+.background_color_orange {
+  color: #F49B57 !important;
+}
+
+
+.screen-width{
+  max-width: 100%;
+}
+
+.fluid-container,
+.row,
+.col-7 {
+  height: 100%; /* Set height for all parent elements */
+}
+
+
+
+.main-section{
+  overflow-x: hidden;
+  max-width: 100%;
+  height: 100vh;
+
+}
+
+
+
+.bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 20px 0 0 20px;
+  background-image: url('images/background-Frame.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+.card-form {
+  position: relative;
+  left: 115px;
+height: 90%;
+  width: 60%;
+  padding: 30px 45px 0 45px;
+  align-self: center;
+  color:#87898E ;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-form .form-caption{
+
+  font-size: 11px;
+}
+
+input::placeholder{
+  color: #87898E  !important;
+  font-size: 14px;
+  font-weight: 300;
+
+}
+
+.card-body{
+  padding: 0;
+  flex: none;
+}
+
+.form-control {
+
+  border-radius: 12px;
+ 
+}
+
+.eight-character-text p{
+  font-size: 12px;
+}
+
+
+.form-check label{
+
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 35px;
+}
+
+.card-form .btn-submit{
+width: 100%;
+height: 50px;
+  background-color:#F49B57;
+  border: none;
+
+}
+
+.shopping{
+  
+}
+
+.shopping img{
+
+  transform: translateX(28px);
+  height: 90%;
+
+}
+
+
+.error {
+
+  border-color: red !important;
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+  body::before {
+    /* content: "xs"; */
+  }
+
+
+
+  .bg-container{
+    justify-content: center;
+  }
+  .card-form {
+
+    position: static;
+    width: 90%;
+    padding-top: 7rem !important;
+
+
+  }
+
+  .card-body{
+
+    flex: content;
+  }
+
+
+}
+@media (min-width: 576px) {
+  body::before {
+    /* content: "SM"; */
+  }
+
+}
+
+@media (min-width: 768px) {
+  body::before {
+    /* content: "MD"; */
+  }
+}
+
+@media (min-width: 992px) {
+  body::before {
+    /* content: "LG"; */
+  }
+}
+
+@media (min-width: 1200px) {
+  body::before {
+    /* content: "XL"; */
+  }
+}
+
+@media (min-width: 1400px) {
+  body::before {
+    /* content: "XXL"; */
+  }
+}
+
+
+
+
+
+
