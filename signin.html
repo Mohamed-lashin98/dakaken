@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> إنشاء حساب</title>
+     <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Noto+Sans+Arabic:wght@100..900&display=swap"
+    rel="stylesheet">
+
+
+  <!--------------- fontawsome ------------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link  rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="assest/css/signin-style.css">
+</head>
+
+<body >
+    <div class="container-fluid screen-width my-0 p-0">
+        <div id="header" class="row d-sm-none d-md-flex justify-content-center align-items-center mx-0 screen_width">
+            <div class="col-10 ">
+                <div class="row justify-content-around">
+                    <div class="col-5">
+                        <div class="row flex-nowrap justify-content-between">
+                            <div id="header_text" class="col-5">
+                                <img src="assest/images/phone.svg" class="img-fluid" />
+                                <a class="header_text decoration_none" href="#">+221 33 66 22</a>
+                            </div>
+                            <div id="header_text" class="col-5">
+                                <img id="sms" src="assest/images/sms.svg" class="img-fluid" />
+                                <a class="header_text decoration_none" href="#">support@elextra.io</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="row flex-nowrap  justify-content-between">
+                            <div class="col-5">
+                                <img src="assest/images/location.svg" class="img-fluid" />
+                                <a class="header_text decoration_none" href="#">Store Locations</a>
+                            </div>
+                            <div class="col-5">
+                                <img src="assest/images/truck.svg" class="img-fluid" />
+                                <a class="header_text decoration_none" href="#">Track Your Order</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="logo_header" class="container-fluid row align-items-center justify-content-center px-0 mx-0 mt-2">
+            <div class="col-5 col-md-2 order-1 order-md-1 px-0">
+                <img id="logo" src="assest/images/logo.svg" class="img-fluid" />
+            </div>
+            <div class="col-11 col-md-6 order-3 order-md-2 search-bar-setion">
+                <div class="row">
+                    <div class="col-10 col-md-12 mx-0 px-0">
+                        <div class="row align-items-center h-auto">
+                            <div class="col-9 gx-0">
+                                <img id="search_bar_img" src="assest/images/search.svg" class="img-fluid" />
+                                <input id="search_bar" type="search" class="form-control" />
+                            </div>
+                            <div class="col-3 p-0 text-center dropdown show">
+                                <a class="arrow_down " href="#" role="button" id="dropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <div class="arrow_down">
+                                        <img src="assest/images/arrow_down.svg" class="img-fluid" />
+                                        <p id="arrow_down_label" dir="rtl" lang="ar">الاقسام</p>
+                                    </div>
+                                </a>
+                                <div class="dropdown-menu scrollable mw_300 text-end dropdown-menu-right"
+                                    aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">
+                                        <p class="header_dropdown_text m-0" dir="rtl" lang="ar">اكسسوارات مجوهرات</p>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <p class="header_dropdown_text m-0" dir="rtl" lang="ar">الأحذية والملابس</p>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <p class="header_dropdown_text m-0" dir="rtl" lang="ar">الأحذية والملابس</p>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <p class="header_dropdown_text m-0" dir="rtl" lang="ar">الزفاف والحفلات</p>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <p class="header_dropdown_text m-0" dir="rtl" lang="ar">اللوازم والأدوات الحرفية
+                                        </p>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <p class="header_dropdown_text m-0" dir="rtl" lang="ar">الألعاب والترفيه</p>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <p class="header_dropdown_text m-0" dir="rtl" lang="ar">الألعاب والترفيه</p>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <p class="header_dropdown_text m-0" dir="rtl" lang="ar">الفن والمقتنيات</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-6 col-md-3 order-2 order-md-3 d-flex justify-content-between align-items-center dropdown show px-0">
+
+                <div class="col-8 d-flex justify-content-end">
+                    <div class="row flex-nowrap">
+                        <div class="col-4">
+                            <div class="relative"> <img src="assest/images/heart.svg" class="img-fluid" />
+                                <div class="wishlist_count">6</div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="dropdown show"> <a class="relative" href="#" role="button" id="dropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img
+                                        src="assest/images/notification.svg" class="img-fluid" />
+                                    <div class="notification_count">10</div>
+                                </a>
+                                <div class="dropdown-menu scrollable mw_500 dropdown-menu-right"
+                                    aria-labelledby="dropdownMenuLink"> <a class="dropdown-item" href="#">
+                                        <div class="row align-items-center">
+                                            <div class="col-4 py-2">
+                                                <p class="notification_status m-0" dir="rtl" lang="ar">قرات الكل</p>
+                                            </div>
+                                            <div class="col-8 mb-2 text-end py-2">
+                                                <p class="notification m-0" dir="rtl" lang="ar">الاشعارات</p>
+                                            </div>
+                                            <hr />
+                                        </div>
+                                    </a> <a class="dropdown-item" href="#">
+                                        <div class="row justify-content-end text-end">
+                                            <div class="col-4 notification_disc notification_time">
+                                                <p class="notification_name">15 min ago</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="notification_name">Bessie Cooper</p> <br />
+                                                <p class="notification_disc">Lorem ipsum dolor sit amet consectetur.
+                                                </p>
+                                            </div>
+                                            <div class="col-2"> <img src="assest/images/profile.svg"
+                                                    class="img-fluid profile_pic" /> </div>
+                                        </div>
+                                    </a> <a class="dropdown-item" href="#">
+                                        <div class="row justify-content-end text-end">
+                                            <div class="col-4 notification_disc notification_time">
+                                                <p class="notification_name">15 min ago</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="notification_name">Bessie Cooper</p> <br />
+                                                <p class="notification_disc">Lorem ipsum dolor sit amet consectetur.
+                                                </p>
+                                            </div>
+                                            <div class="col-2"> <img src="assest/images/profile.svg"
+                                                    class="img-fluid profile_pic" /> </div>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="row justify-content-end text-end">
+                                            <div class="col-4 notification_disc notification_time">
+                                                <p class="notification_name">15 min ago</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="notification_name">Bessie Cooper</p> <br />
+                                                <p class="notification_disc">Lorem ipsum dolor sit amet consectetur.
+                                                </p>
+                                            </div>
+                                            <div class="col-2"> <img src="assest/images/profile.svg"
+                                                    class="img-fluid profile_pic" /> </div>
+                                        </div>
+                                    </a> <a class="dropdown-item" href="#">
+                                        <div class="row justify-content-end text-end">
+                                            <div class="col-4 notification_disc notification_time">
+                                                <p class="notification_name">15 min ago</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="notification_name">Bessie Cooper</p> <br />
+                                                <p class="notification_disc">Lorem ipsum dolor sit amet consectetur.
+                                                </p>
+                                            </div>
+                                            <div class="col-2"> <img src="assest/images/profile.svg"
+                                                    class="img-fluid profile_pic" /> </div>
+                                        </div>
+                                    </a> <a class="dropdown-item" href="#">
+                                        <div class="row justify-content-end text-end">
+                                            <div class="col-4 notification_disc notification_time">
+                                                <p class="notification_name">15 min ago</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="notification_name">Bessie Cooper</p> <br />
+                                                <p class="notification_disc">Lorem ipsum dolor sit amet consectetur.
+                                                </p>
+                                            </div>
+                                            <div class="col-2"> <img src="assest/images/profile.svg"
+                                                    class="img-fluid profile_pic" /> </div>
+                                        </div>
+                                    </a> <a class="dropdown-item" href="#">
+                                        <div class="row justify-content-end text-end">
+                                            <div class="col-4 notification_disc notification_time">
+                                                <p class="notification_name">15 min ago</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="notification_name">Bessie Cooper</p> <br />
+                                                <p class="notification_disc">Lorem ipsum dolor sit amet consectetur.
+                                                </p>
+                                            </div>
+                                            <div class="col-2"> <img src="assest/images/profile.svg"
+                                                    class="img-fluid profile_pic" /> </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="relative"> <img src="assest/images/shopping_cart.svg" class="img-fluid" />
+                                <div class="cart_count">1</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        <img src="assest/images/profile_pic.svg" class="img-fluid" />
+                    </a>
+                    <div class="dropdown-menu scrollable max_w_200 text-end dropdown-menu-right"
+                        aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">
+                            <p class="header_dropdown_text mx-3">Olivia Rhye</p>
+                            <img src="assest/images/profile_pic.svg" class="img-fluid" />
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <p class="header_dropdown_text mx-3" dir="rtl" lang="ar">الصفحة الشخصية</p>
+                            <img src="assest/images/user.svg" class="img-fluid" />
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <p class="header_dropdown_text mx-3" dir="rtl" lang="ar">طلباتى</p>
+                            <img src="assest/images/box_tick.svg" class="img-fluid" />
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <p class="header_dropdown_text mx-3" dir="rtl" lang="ar">عناوينى</p>
+                            <img src="assest/images/my_location.svg" class="img-fluid" />
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <p class="header_dropdown_text mx-3" dir="rtl" lang="ar">اللغة</p>
+                            <img src="assest/images/translate.svg" class="img-fluid" />
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <p class="header_dropdown_text mx-3" dir="rtl" lang="ar">البيع على دكاكين</p>
+                            <img src="assest/images/sell.svg" class="img-fluid" />
+                        </a>
+                        <hr />
+                        <a class="dropdown-item" href="#">
+                            <p class="header_dropdown_text mx-3" dir="rtl" lang="ar">تسجيل الخروج</p>
+                            <img src="assest/images/logout.svg" class="img-fluid" />
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="row justify-content-center mt-2 mx-0 screen_width">
+            <hr />
+            <ul class="nav flex-nowrap justify-content-center px-0 align-items-start">
+                <li class="nav-item">
+                    <a id="menu" dir="rtl" lang="ar" class="nav-link" href="#">اتصل بنا</a>
+                </li>
+                <li class="nav-item">
+                    <a id="menu" dir="rtl" lang="ar" class="nav-link" href="#">معلومات عنا</a>
+                </li>
+                <li class="nav-item">
+                    <a id="menu" dir="rtl" lang="ar" class="nav-link" href="#">منتجات مميزة</a>
+                </li>
+                <li class="nav-item">
+                    <hr class="orange_line" />
+                    <a id="menu" dir="rtl" lang="ar" class="nav-link color_orange" href="#">الرئيسية</a>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+        <div class="row main-section flex-nowrap justify-content-between mx-0 my-4 screen-width " dir="rtl">
+  
+            <div class="form-container col-lg-8 d-flex justify-content-center px-0">
+                <div class="bg-container col-12 d-flex  align-items-center">
+                    <div class="card col-lg-8 card-form">
+                        <div class="card-body">
+                            <h4 class="text-center mb-4" style="color: #000;">اشتراك</h4>
+                            <p class="text-center form-caption">الرجاء إدخال بيانات الاعتماد التي سيتم استخدامها خلال عملية التسجيل. بالنسبة للتعليمات والشركات، ينبغي أن يكون هذا هو تسجيل دخول جهة الاتصال الأساسية المسؤولة عن عملية التسجيل.</p>
+                            <form id="signupForm" action="#" method="post" class="needs-validation">
+                                <div class="form-group mb-3">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder=" البريد الإلكتروني" required>
+                                    <div class="invalid-feedback">يرجى إدخال بريد إلكتروني صحيح.</div>
+                                </div>
+                                <div class="form-group mb-2">
+                                    <input type="password" class="form-control" id="password" name="password" placeholder="كلمة المرور" required>
+                                    <div class="invalid-feedback">الحد الأدنى 6 أحرف، ورقم واحد على الأقل، وحرف خاص</div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control mb-2" id="confirm_password" name="confirm_password" placeholder="تأكيد كلمة المرور" required>
+                                    <div class="invalid-feedback">يجب أن تتطابق كلمة المرور مع تأكيد كلمة المرور.</div>
+                                </div>
+                                <div class="form-check d-flex mb-0">
+                                    <input type="checkbox" class="form-check-input" id="terms" name="terms" required>
+                                    <label class="form-check-label mb-2 text-nowrap" for="terms" dir="rtl">أوافق على الشروط والأحكام</label>
+                                </div>
+                                <div class="form-check d-flex">
+                                    <input type="checkbox" class="form-check-input" id="newsletter" name="newsletter">
+                                    <label class="form-check-label  mb-4 text-nowrap" for="newsletter">الاشتراك في النشرة الإخبارية</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block btn-submit mb-2">إنشاء حساب</button>
+                                <p class="text-center mb-1">أو</p>
+                                <p class="text-center"> هل لديك حساب؟ <a href="#">تسجيل الدخول</a></p>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="shopping col-5 d-md-flex d-none  align-items-center px-0 mx-0">
+                <img src="assest/images/shopping.png" class="img-fluid " alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="../app.js"></script>
+
+<script>
+    document.getElementById('signupForm').addEventListener('submit', function(event) {
+        var fields = {
+            'email': {
+                validationMessage: 'يرجى إدخال بريد إلكتروني صحيح.',
+                validators: [function(field) {
+                    return field.checkValidity();
+                }]
+            },
+            'password': {
+                validationMessage: 'الحد الأدنى 6 أحرف، ورقم واحد على الأقل، وحرف خاص',
+                validators: [
+                    function(field) {
+                        return field.checkValidity();
+                    },
+                    function(field) {
+                        return field.value.length >= 6;
+                    },
+                    function(field) {
+                        return /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/.test(field.value);
+                    }
+                ]
+            },
+            'confirm_password': {
+                validationMessage: 'يجب أن تتطابق كلمة المرور مع تأكيد كلمة المرور.',
+                validators: [function(field) {
+                    var passwordField = document.getElementById('password');
+                    return field.value === passwordField.value;
+                }]
+            },
+            'terms': {
+                validationMessage: 'يجب الموافقة على الشروط والأحكام.',
+                validators: [function(field) {
+                    return field.checked;
+                }]
+            }
+        };
+    
+        var isFormValid = true;
+    
+        for (var fieldName in fields) {
+            var field = document.getElementById(fieldName);
+            var validators = fields[fieldName].validators;
+            var isValid = true;
+    
+            for (var i = 0; i < validators.length; i++) {
+                if (!validators[i](field)) {
+                    field.setCustomValidity(fields[fieldName].validationMessage);
+                    field.classList.add('is-invalid');
+                    isValid = false;
+                    isFormValid = false;
+                    break;
+                }
+            }
+    
+            if (isValid) {
+                field.setCustomValidity('');
+                field.classList.remove('is-invalid');
+            }
+        }
+    
+        if (!isFormValid) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+    });
+    </script>
+    
+
+    
+    
+</body>
+
+</html>
